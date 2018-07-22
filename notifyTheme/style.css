@@ -1,0 +1,109 @@
+/*
+Theme Name: Boostrap notify
+Theme URI: https://www.lyrathemes.com/bootstrap-wordpress-theme-tutorial/
+Author: Adam
+Author URI: https://www.adambs.net
+Description: A commercial theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrapstarter
+*/
+
+.jumbotron {
+}
+
+.top-jumbotron {
+    padding-top: 180px;
+    color: #fff;
+    background-image: url('img/PhoneInHand-jumbotron.png');
+    background-attachment: fixed;
+    min-height: 600px;
+    background-size: contain;
+}
+
+.jumbotron-logo {
+    height: 83px;
+    width: 183px;
+    background-image: url('img/Notify-Logo.png');
+}
+
+.card-deck {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-img-top {
+    height: 98px;
+    width: 98px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('img/container.png');
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top:27px;
+    margin-top: 25px;
+}
+
+.featured-icon {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+}
+
+.card-text {
+    display: none;
+}
+
+.contact-jumbotron {
+    background: #e3e3e3;
+    min-height: 425px;
+}
+
+iframe {
+    margin-top:15px;
+}
+
+.social-container {
+    background-image: url('img/social-container.png');
+    height: 34px;
+    width: 34px;
+    padding-top: 3px;
+    filter: contrast(80%);
+}
+
+.testimonial {
+    padding-bottom:50px;
+}
+
+footer {
+    background: #e3e3e3;
+    margin-top:10px;
+    padding-top:10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .top-jumbotron {
+        background-position-x: -800px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .top-jumbotron .container {
+        padding-left: 160px;
+    }
+}
